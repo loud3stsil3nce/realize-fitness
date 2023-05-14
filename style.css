@@ -1,9 +1,14 @@
 * {
+    box-sizing:border-box;
     margin:0px;
     padding:0px;
     
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+
+/*
 .top-bar {
     display:flex;
     width:100%;
@@ -63,7 +68,67 @@
     color:#E5E7EB;
     font-weight:700;  
     padding:5px; 
-    /*border-style:solid; */
+    /*border-style:solid; 
+}
+*/
+
+
+li, a, button {
+    font-style: "Montserrat", sans-serif;
+    font-weight:500;
+    color:#0c0606;
+}
+
+header {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding: 30px 10%; 
+    background-color:#1F2937;
+}
+
+.logo {
+    cursor:pointer;
+    margin-right:auto;
+}
+
+.nav-links{
+    cursor:pointer;
+    list-style:none; 
+}
+
+
+
+.nav-links li {
+    display:inline-block;
+    padding:0 20px;
+    color:#ecf0f1;
+}
+
+.nav-links li a {
+    transition:all 0.3s ease 0s;
+    border:none;
+    border-radius:60px;
+    background-color:transparent;
+}
+.nav-links li a:hover {
+    background-color:rgb(9, 18, 18, 0.8);
+    color:crimson;
+}
+
+button {
+    padding:9px 25px;
+    color: rgb(9, 18, 18, 1);
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+    transition:all 0.3s ease 0s;
+ 
+   
+}
+button:hover {
+    background-color:rgb(9, 18, 18, 0.8);
+    color:crimson;
 }
 
 
