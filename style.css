@@ -173,18 +173,66 @@ button:hover {
 
 .third-section {
     display:flex;
-    flex-direction:column;
     justify-content:center;
     text-align:center;
+    flex-direction:column;
+    padding-bottom:30px;
+    
+}
+
+.Objective {
+    padding-top:30px;
+    text-align:center;
+    width:100%;
+    
+    
 }
 
 .subtext-container {
     display:flex;
     flex-direction:row;
-    justify-content:center;
+    justify-content:space-around;
     align-content:center;
+    padding-left:15%;
+    padding-right:15%;
+
 
 }
+.subtext-container .img-subtext {
+
+    padding:auto 15%; 
+    flex:1;
+}
+
+.subtext-container p {
+    text-align:center;
+    flex:1;
+    position:relative;
+    
+}
+
+
+.img-container {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+}
+
+.objective-img {
+    width:20%;
+    margin-top: 30px;
+    height:120px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    border-style:solid;
+    margin:10px;
+    ;
+
+}
+
+
 .subtext-container .img-subtext {
     
 }
