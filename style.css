@@ -8,70 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
 
 
-/*
-.top-bar {
-    display:flex;
-    width:100%;
-    height:fit-content;
-    background-color:#1F2937;
-    color:whitesmoke;
- 
-}
-
-.top-bar > div {
-    
-    width:100%;
-    margin:auto;   
-    height:10%;
-
-}
-
-.nav-bar-container > header {
-    display:flex;
-    height:max-content;
-    font-size:24px;
-    font-family:'Courier New', Courier, monospace;
-    font-weight:600;
-    flex:1;
-    height:inherit;
-    width:fit-content;
-    justify-content:center;
-    margin:auto;
-    align-items:center;   
-    text-align:center;
-}  
-
-.link-container {
-    margin:flex;
-    width:100%;
-    display:flex;
-}
-
-    
-
-.links {
-    display:flex;
-    list-style-type: none;
-    margin:auto;
-    width:auto;
-    align-items:center;
-    justify-content:center;  
-}
-
-.links > li {
-    flex:1;
-    width:100%;   
-    justify-content: space-evenly;
-    text-align:center;
-    align-items:center;
-    font-size:12px;
-    color:#E5E7EB;
-    font-weight:700;  
-    padding:5px; 
-    /*border-style:solid; 
-}
-*/
-
+/*nav bar styling starts here*/
 
 li, a, button {
     font-style: "Montserrat", sans-serif;
@@ -132,6 +69,7 @@ button:hover {
 }
 
 
+/* main box (with the call to action and bicep curl image) styling starts here */
 .main-box-container {
     display:flex;
     background-color:#1F2937 ;
@@ -170,7 +108,7 @@ button:hover {
     
 }
 
-
+/* here, the styling for the third box starts */
 .third-section {
     display:flex;
     justify-content:center;
@@ -232,7 +170,5 @@ button:hover {
 
 }
 
+/* third box styling ends here */
 
-.subtext-container .img-subtext {
-    
-}
