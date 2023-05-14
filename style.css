@@ -1,0 +1,195 @@
+* {
+    margin:0px;
+    padding:0px;
+    
+}
+
+.top-bar {
+    display:flex;
+    width:100%;
+    height:fit-content;
+    background-color:#1F2937;
+    color:whitesmoke;
+ 
+}
+
+.top-bar > div {
+    
+    width:100%;
+    margin:auto;   
+    height:10%;
+
+}
+
+.nav-bar-container > header {
+    display:flex;
+    height:max-content;
+    font-size:24px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:600;
+    flex:1;
+    height:inherit;
+    width:fit-content;
+    justify-content:center;
+    margin:auto;
+    align-items:center;   
+    text-align:center;
+}  
+
+.link-container {
+    margin:flex;
+    width:100%;
+    display:flex;
+}
+
+    
+
+.links {
+    display:flex;
+    list-style-type: none;
+    margin:auto;
+    width:auto;
+    align-items:center;
+    justify-content:center;  
+}
+
+.links > li {
+    flex:1;
+    width:100%;   
+    justify-content: space-evenly;
+    text-align:center;
+    align-items:center;
+    font-size:12px;
+    color:#E5E7EB;
+    font-weight:700;  
+    padding:5px; 
+    /*border-style:solid; */
+}
+
+
+.main-box-container {
+    display:flex;
+    background-color:#1F2937 ;
+    
+}
+
+.main-box-container > div {
+    flex:1;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    text-align:center;
+    background-color:#1F2937;
+    color:whitesmoke;
+    padding:5% 10%;
+    height:100%;
+}
+
+.huge-header {
+    font-size:48px;
+    font-weight:1500px;
+    flex:1;
+    
+    
+}
+
+.right-half {
+    display:flex;
+    width:50%;
+    height:100%;
+    
+}
+.right-half > img {
+    width:100%;
+    height:auto;
+    
+}
+
+
+
+
+/*
+.header-container > .div {
+    flex:1x;
+
+
+
+    
+}
+
+.logo-subcontainer {
+    margin-left:8%;
+    margin-right:8%;
+    flex:1 1 0;
+}
+.links {
+    display:flex;
+    
+    flex-grow:1;
+    flex-shrink: 1;
+    align-items:center;
+    justify-content:space-between;
+    display:flex;
+    margin-right:8%;
+    
+}
+
+
+.links > .h2 {
+    flex:1x;
+    justify-content:space-around;
+}
+
+
+
+
+.header-link {
+    padding:8px;
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+
+
+
+.welcome-title-image-container {
+    background-color:#1F2937; 
+    display:flex;
+    padding-left:8%;
+    justify-content:space-between;
+}
+
+.large-subtext-container {
+    width:50px;
+    flex:1;
+
+}
+.image-container {
+    width:50%;
+    flex:1;
+    justify-content:center;
+
+}
+
+
+.smaller-infobox {
+display:flex;
+}
+
+
+
+.quote-container {
+display:flex;
+}
+
+
+
+.invitation-container {
+display:flex;
+
+}
+
+.invitation-box {
+    flex: 1 1 auto;
+}
+*/
