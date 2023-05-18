@@ -202,3 +202,47 @@ button:hover {
 }
 
 
+/* quote section ends here*/
+
+.call-to-action {
+    width:100%;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:white;
+    display:flex;
+    flex-direction:row;
+}
+
+
+.call-button {
+    padding-left:15px;
+    border-radius:15px;
+    display:inline-block;
+    background-color:blue;
+    border-style:solid;
+    color:white;
+    justify-content:flex-end;
+ 
+}
+.call-to-action .blue-call-container{
+    width:100%;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:#3882f6;
+    color:white;
+    display:flex;
+    flex:1;
+    border-style:hidden;
+    border-radius:10px;
+
+}
+
+.call-content-container {
+    margin: auto;
+
+}
+
