@@ -172,3 +172,33 @@ button:hover {
 
 /* third box styling ends here */
 
+
+.quote-section {
+    padding-top:70px;
+    padding-bottom:65px;
+    padding-left:120px;
+    padding-right:120px;
+    background-color:#e5e7eb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+
+
+}
+
+.quote {
+    font-size:36px;
+    font-style:italic;
+    color:#1f2937;
+
+
+}
+.quote-author  {
+    width:100%;
+    text-align:end;
+    padding-top:10px;
+}
+
+
